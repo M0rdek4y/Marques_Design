@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+html, body {
+    height: 80vh;
+}
+
+body {
+    background-color: gray;
+    background: url(https://github.com/M0rdek4y/Repositorio-de-midia/blob/master/media/images/gif/hacking.gif?raw=true) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 100%;
+}
+
+main {
+    text-align: justify;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+main > h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#perf {
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    width: 500px;
+}
+
+#perfil {
+    margin: auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+div > img {
+    width: 100%;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
