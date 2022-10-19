@@ -4,18 +4,31 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    color: white;
 }
 
-html, body {
+html {
     font-family: Arial, Helvetica, sans-serif;
-    height: 80vh;
+    width: 100vw;
 }
 
-#apre {
-    margin: auto;
-    margin-bottom: 20px;
-    padding: 10px 20px;
-    width: 50vw;
+body {
+    width: 100vw;
+    background-color: gray;
+    background: url(https://github.com/M0rdek4y/Repositorio-de-midia/blob/master/media/images/gif/hacking.gif?raw=true) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*---HEADER CONFIGURATIONS---*/
+
+div#head {
+    position: absolute;
+    margin-left: 15px;
+    padding-left: 45px;
+    padding-top: 50px;
+    width: 30vw;
+    height: 200px;
     background-color: rgba(255, 255, 255, 0.350);
 }
 
@@ -27,39 +40,96 @@ div .teste {
     display: inline-block;
 }
 
-body {
-    background-color: gray;
-    background: url(https://github.com/M0rdek4y/Repositorio-de-midia/blob/master/media/images/gif/hacking.gif?raw=true) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    max-height: 100%;
-}
-
 main {
+    position: relative;
+    margin: auto;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
-    background-color: rgba(211, 211, 211, 0.350);
+    background-color: rgba(10, 10, 10, 0.479);
     padding: 10px;
+    height: 100vh;
+    width: 600px;
 }
 
-main > h2 {
+article #infome {
+    position: absolute;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+/*---EXPERIENCIA PROFISSIONAL CONFIGURATIONS---*/
+
+article#infome {
+    position: static;
+    height: 200px;
+}
+
+article#exp {
+    margin-top: 70px;
+    height: 200px;
+}
+
+article.tex > h2 {
     box-shadow: 0px 0px 4px 3px black;
-    background-color: rgba(82, 82, 82, 0.35);
+    background-color: rgba(211, 211, 211, 0.350);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: bold;
+    margin-top: 20px;
     margin-bottom: 10px;
-}
-
-main > p {
+    padding: 5px;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.705);
-    tex
 }
 
+.tex > h3 {
+    color: rgb(58, 120, 255);
+}
+
+.tex > h3, .tex > p  {
+    font-size: 1.2em;
+    padding-top: 20px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.705);
+}
+
+/*---CARGO & FUNÇÃO---*/
+
+p.cargo {
+    font-size: 1.1em;
+}
+
+p.funcao {
+    font-size: 1em;
+}
+
+/*---DATA CONFIGURATIONS*/
+
+span.data {
+    display: block;
+    padding-top: 20px;
+    text-align: right;
+    font-size: small;
+    color: lightgray;
+}
+
+/*---FOOTER CONFIGURATIONS---*/
+
 footer {
+    position: relative;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 5px;
+    width: 90vw;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
 }
